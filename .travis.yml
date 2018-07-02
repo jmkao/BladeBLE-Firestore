@@ -5,7 +5,6 @@ cache: yarn
 
 install:
 - yarn install
-- yarn add jsonlint
 script:
 - jsonlint -q menus.json
 - node import.js menus.json
