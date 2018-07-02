@@ -1,8 +1,13 @@
 language: node_js
 node_js:
-  - "8"
+- '8'
 install:
-  - npm install
-  - npm install jsonlint -g
+- npm install
+- npm install jsonlint -g
 script:
-  - jsonlint -q menus.json
+- jsonlint -q menus.json
+- node import.js menus.json
+before_install:
+- openssl aes-256-cbc -K $encrypted_d265ae8b4a57_key -iv $encrypted_d265ae8b4a57_iv
+  -in bladeble-e714e-firebase-adminsdk-v93ee-43ec2a4dc3.json.enc -out bladeble-e714e-firebase-adminsdk-v93ee-43ec2a4dc3.json
+  -d
