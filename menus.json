@@ -31,7 +31,7 @@
     "brightnessMenu": {
       "models": [
         {
-          "index": 12,
+          "index": 0,
           "label": "5%",
           "uiColor": "#101010",
           "action": "ble.setBrightness(12)"
