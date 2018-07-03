@@ -76,6 +76,22 @@
         }
       ]
     },
+    "starMenu": {
+      "models": [
+        {
+          "index": 0,
+          "label": "Senbonzakura",
+          "uiColor": "#FFA0A0",
+          "action": "ble.cycleHS(1000, 0, [339, 220], [120, 200])"
+        },
+        {
+          "index": 1,
+          "label": "Test",
+          "uiColor": "#BBBBBB",
+          "action": "ble.cycleHS(700, 600, [120, 255], [120, 255], [0, 220], [339, 220], [339, 220], [0, 220])"
+        }
+      ]
+    },
     "brightnessMenu": {
       "models": [
         {
