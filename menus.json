@@ -3,7 +3,7 @@
     "colorMenu": {
       "models": [
         {
-          "index": 4,
+          "index": 0,
           "label": "Red",
           "uiColor": "#FF0000",
           "action": "ble.updateHS(0, 255)"
@@ -16,15 +16,63 @@
         },
         {
           "index": 2,
+          "label": "Blue",
+          "uiColor": "#0000FF",
+          "action": "ble.updateHS(240, 255)"
+        },
+        {
+          "index": 3,
           "label": "Cyan",
           "uiColor": "#00FFFF",
           "action": "ble.updateHS(180, 255)"
         },
         {
-          "index": 3,
-          "label": "Blue",
-          "uiColor": "#0000FF",
-          "action": "ble.updateHS(240, 255)"
+          "index": 4,
+          "label": "Magenta",
+          "uiColor": "#FF00FF",
+          "action": "ble.updateHS(300, 255)"
+        },
+        {
+          "index": 5,
+          "label": "Yellow",
+          "uiColor": "#FFFF00",
+          "action": "ble.updateHS(60, 255)"
+        },
+        {
+          "index": 6,
+          "label": "White",
+          "uiColor": "#FFFFFF",
+          "action": "ble.updateHS(320, 32)"
+        },
+        {
+          "index": 7,
+          "label": "Pink",
+          "uiColor": "#FFA0A0",
+          "action": "ble.updateHS(339, 220)"
+        },
+        {
+          "index": 8,
+          "label": "Mint",
+          "uiColor": "#40FF40",
+          "action": "ble.updateHS(120, 200)"
+        },
+        {
+          "index": 9,
+          "label": "Orange",
+          "uiColor": "#FF8000",
+          "action": "ble.updateHS(15, 255)"
+        },
+        {
+          "index": 10,
+          "label": "Light Blue",
+          "uiColor": "#8080FF",
+          "action": "ble.updateHS(240, 200)"
+        },
+        {
+          "index": 11,
+          "label": "Purple",
+          "uiColor": "#880088",
+          "action": "ble.updateHS(270, 200)"
         }
       ]
     },
@@ -33,67 +81,67 @@
         {
           "index": 0,
           "label": "5%",
-          "uiColor": "#101010",
+          "uiColor": "#303030",
           "action": "ble.setBrightness(12)"
         },
         {
           "index": 1,
           "label": "10%",
-          "uiColor": "#101010",
+          "uiColor": "#505050",
           "action": "ble.setBrightness(25)"
         },
         {
           "index": 2,
           "label": "15%",
-          "uiColor": "#101010",
+          "uiColor": "#606060",
           "action": "ble.setBrightness(38)"
         },
         {
           "index": 3,
           "label": "20%",
-          "uiColor": "#101010",
+          "uiColor": "#707070",
           "action": "ble.setBrightness(51)"
         },
         {
           "index": 4,
           "label": "25%",
-          "uiColor": "#101010",
+          "uiColor": "#808080",
           "action": "ble.setBrightness(64)"
         },
         {
           "index": 5,
           "label": "30%",
-          "uiColor": "#101010",
+          "uiColor": "#909090",
           "action": "ble.setBrightness(76)"
         },
         {
           "index": 6,
           "label": "40%",
-          "uiColor": "#101010",
+          "uiColor": "#A0A0A0",
           "action": "ble.setBrightness(102)"
         },
         {
           "index": 7,
           "label": "50%",
-          "uiColor": "#101010",
+          "uiColor": "#B0B0B0",
           "action": "ble.setBrightness(128)"
         },
         {
           "index": 8,
           "label": "60%",
-          "uiColor": "#101010",
+          "uiColor": "#C0C0C0",
           "action": "ble.setBrightness(153)"
         },
         {
           "index": 9,
           "label": "70%",
-          "uiColor": "#101010",
+          "uiColor": "#D0D0D0",
           "action": "ble.setBrightness(179)"
         },
         {
           "index": 10,
           "label": "80%",
-          "uiColor": "#101010",
+          "uiColor": "#E0E0E0",
           "action": "ble.setBrightness(204)"
         },
         {
