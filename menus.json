@@ -59,7 +59,7 @@
         {
           "index": 9,
           "label": "Orange",
-          "uiColor": "#FF8000",
+          "uiColor": "#FFA000",
           "action": "ble.updateHS(15, 255)"
         },
         {
@@ -79,16 +79,80 @@
     "starMenu": {
       "models": [
         {
-          "index": 0,
+          "index": 1,
           "label": "Senbonzakura",
           "uiColor": "#FFA0A0",
-          "action": "ble.cycleHS(1000, 0, [339, 220], [120, 200])"
+          "action": "ble.cycleHS(2000, 1000, [339, 220], [120, 200])"
         },
         {
-          "index": 1,
-          "label": "Test",
-          "uiColor": "#BBBBBB",
-          "action": "ble.cycleHS(700, 600, [120, 255], [120, 255], [0, 220], [339, 220], [339, 220], [0, 220])"
+          "index": 0,
+          "label": "UO",
+          "uiColor": "#FFA000",
+          "action": "ble.updateUO()"
+        }
+      ]
+    },
+    "bookmarkBlackMenu": {
+      "models": [
+        {
+          "index": 0,
+          "label": "Aquors",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(1500, 500, [40, 242], [301, 69], [164, 234], [354, 193], [202, 180], [0, 0], [55, 230], [275, 160], [310, 136])"
+        },
+        {
+          "index": 10,
+          "label": "Chika",
+          "uiColor": "#F0A20B",
+          "action": "ble.updateHS(40, 242)"
+        },
+        {
+          "index": 9,
+          "label": "Riko",
+          "uiColor": "#E9A9E8",
+          "action": "ble.updateHS(301, 69)"
+        },
+        {
+          "index": 8,
+          "label": "Kanan",
+          "uiColor": "#13E8AE",
+          "action": "ble.updateHS(164, 234)"
+        },
+        {
+          "index": 7,
+          "label": "Dia",
+          "uiColor": "#F23B4C",
+          "action": "ble.updateHS(354, 193)"
+        },
+        {
+          "index": 6,
+          "label": "You",
+          "uiColor": "#49B9F9",
+          "action": "ble.updateHS(202, 180)"
+        },
+        {
+          "index": 5,
+          "label": "Yoshiko",
+          "uiColor": "#898989",
+          "action": "ble.updateHS(0, 0)"
+        },
+        {
+          "index": 4,
+          "label": "Hanamaru",
+          "uiColor": "#E6D617",
+          "action": "ble.updateHS(55, 230)"
+        },
+        {
+          "index": 3,
+          "label": "Mari",
+          "uiColor": "#AE58EB",
+          "action": "ble.updateHS(275, 160)"
+        },
+        {
+          "index": 2,
+          "label": "Ruby",
+          "uiColor": "#FB75E4",
+          "action": "ble.updateHS(310, 136)"
         }
       ]
     },
@@ -171,6 +235,13 @@
     "gearMenu": {
       "models": [
         {
+          "index": 0,
+          "label": "Quit",
+          "uiColor": "#FFFFFF",
+          "imgRes": "ic_power_settings_new_black_24dp",
+          "imgColor": "#000000",
+          "action": "main.quit()"
+        },        {
           "index": 6,
           "label": "Minimum",
           "uiColor": "#808080",
