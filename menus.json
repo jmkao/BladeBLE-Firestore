@@ -79,7 +79,7 @@
     "starMenu": {
       "models": [
         {
-          "index": 1,
+          "index": 2,
           "label": "Senbonzakura",
           "uiColor": "#FFA0A0",
           "action": "ble.cycleHS(2000, 1000, [339, 220], [120, 200])"
@@ -89,6 +89,48 @@
           "label": "UO",
           "uiColor": "#FFA000",
           "action": "ble.updateUO()"
+        },
+        {
+          "index": 10,
+          "label": "Red-White-Blue",
+          "uiColor": "#FF0000",
+          "action": "ble.cycleHS(2000, 500, [0, 255], [0, 0], [240, 255])"
+        },
+        {
+          "index": 9,
+          "label": "Spectrum",
+          "uiColor": "#AAAAAA",
+          "action": "ble.cycleHS(1500, 1500, [0, 255], [90, 255], [180, 255], [270, 255])"
+        },
+        {
+          "index": 8,
+          "label": "Spectrum Fast",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(500, 500, [0, 255], [90, 255], [180, 255], [270, 255])"
+        },
+        {
+          "index": 7,
+          "label": "128bpm",
+          "uiColor": "#AAAAFF",
+          "action": "ble.cycleHS(468, 0, [0, 255], [60, 255], [120, 255], [180, 255], [240, 255], [300, 255])"
+        },
+        {
+          "index": 6,
+          "label": "RGBW Strobe",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(200, 0, [0, 255], [120, 255], [240, 255], [0, 0])"
+        },
+        {
+          "index": 5,
+          "label": "Red Pulse 128bpm",
+          "uiColor": "#FF0000",
+          "action": "ble.cycleHS(468, 250, [0, 255, 160], [0, 255, 15])"
+        },
+        {
+          "index": 4,
+          "label": "Red Pulse Mild",
+          "uiColor": "#FF0000",
+          "action": "ble.cycleHS(2500, 2500, [0, 255, 50], [0, 255, 5])"
         }
       ]
     },
