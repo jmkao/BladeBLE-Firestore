@@ -54,7 +54,7 @@
           "index": 8,
           "label": "Miku",
           "uiColor": "#40FF40",
-          "action": "ble.updateHS(120, 230)"
+          "action": "ble.updateHS(120, 220)"
         },
         {
           "index": 9,
