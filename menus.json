@@ -82,7 +82,7 @@
           "index": 2,
           "label": "Senbonzakura",
           "uiColor": "#FFA0A0",
-          "action": "ble.cycleHS(2000, 1000, [339, 220], [120, 200])"
+          "action": "ble.cycleHS(2000, 1000, [339, 220], [120, 220])"
         },
         {
           "index": 0,
