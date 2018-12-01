@@ -134,6 +134,40 @@
         }
       ]
     },
+    "bookmarkWhiteMenu": {
+      "models": [
+        {
+          "index": 0,
+          "label": "TryPhones",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(2000, 250, [55, 255], [339, 224], [208, 255], [339, 224])"
+        },
+        {
+          "index": 1,
+          "label": "TryPhones Fast",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(1233, 250, [55, 255], [339, 224], [208, 255], [339, 224])"
+        },
+        {
+          "index": 10,
+          "label": "Mocho/Yuki",
+          "uiColor": "#EF8FB1",
+          "action": "ble.updateHS(339, 192)"
+        },
+        {
+          "index": 9,
+          "label": "Ten/Marika",
+          "uiColor": "#00559D",
+          "action": "ble.updateHS(208, 255)"
+        },
+        {
+          "index": 8,
+          "label": "Natsu/Rie",
+          "uiColor": "#FFEB0B",
+          "action": "ble.updateHS(55, 255)"
+        }
+      ]
+    },
     "bookmarkBlackMenu": {
       "models": [
         {
