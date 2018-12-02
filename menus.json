@@ -150,9 +150,9 @@
         },
         {
           "index": 3,
-          "label": "Blue/White",
+          "label": "Blue/Red",
           "uiColor": "#FFFFFF",
-          "action": "ble.cycleHS(1233, 250, [240, 255], [240, 0])"
+          "action": "ble.cycleHS(1233, 250, [240, 255], [0, 255])"
         },
         {
           "index": 10,
