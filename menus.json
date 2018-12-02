@@ -149,6 +149,12 @@
           "action": "ble.cycleHS(1233, 250, [55, 255], [339, 224], [208, 255], [339, 224])"
         },
         {
+          "index": 3,
+          "label": "Blue/White",
+          "uiColor": "#FFFFFF",
+          "action": "ble.cycleHS(1233, 250, [240, 255], [240, 0])"
+        },
+        {
           "index": 10,
           "label": "Mocho/Yuki",
           "uiColor": "#EF8FB1",
