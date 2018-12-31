@@ -149,10 +149,34 @@
           "action": "ble.cycleHS(1233, 250, [55, 255], [339, 224], [208, 255], [339, 224])"
         },
         {
-          "index": 3,
+          "index": 2,
           "label": "Blue/Red",
           "uiColor": "#FFFFFF",
           "action": "ble.cycleHS(1233, 250, [240, 255], [0, 255])"
+        },
+        {
+          "index": 3,
+          "label": "Miku 70bpm",
+          "uiColor": "#40FF40",
+          "action": "ble.cycleHS(857, 250, [120, 220, 160], [120, 220, 15])"
+        },
+        {
+          "index": 4,
+          "label": "Miku 140bpm",
+          "uiColor": "#40FF40",
+          "action": "ble.cycleHS(428, 250, [120, 220, 160], [120, 220, 15])"
+        },
+        {
+          "index": 5,
+          "label": "Kagamine 70bpm",
+          "uiColor": "#FFFF00",
+          "action": "ble.cycleHS(857, 250, [60, 255, 160], [60, 255, 15])"
+        },
+        {
+          "index": 6,
+          "label": "Kagamine 140bpm",
+          "uiColor": "#FFFF00",
+          "action": "ble.cycleHS(428, 250, [60, 255, 160], [60, 255, 15])"
         },
         {
           "index": 10,
