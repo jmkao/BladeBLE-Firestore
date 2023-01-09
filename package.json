@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "firestore-export-import": "^0.1.3",
+    "firestore-export-import": "^1.3.5",
     "fs": "0.0.1-security",
     "jsonlint": "^1.6.3"
   }
